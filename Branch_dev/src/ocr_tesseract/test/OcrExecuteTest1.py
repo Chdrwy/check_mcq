@@ -10,3 +10,4 @@ filename = di.download(os.getcwd())
 #using optical character recognition - OCR
 ot = OcrTesseract(os.getcwd()+'/'+filename)
 text = ot.execute()
+print(text)
